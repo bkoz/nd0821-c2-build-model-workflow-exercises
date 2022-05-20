@@ -1,0 +1,7 @@
+2022-05-19 16:49:01,840 Getting artifact
+Traceback (most recent call last):
+  File "/private/var/tmp/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py", line 42, in <module>
+    go(args)
+  File "/private/var/tmp/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py", line 22, in go
+    artifact_path = artifact.file()
+NameError: name 'artifact' is not defined
