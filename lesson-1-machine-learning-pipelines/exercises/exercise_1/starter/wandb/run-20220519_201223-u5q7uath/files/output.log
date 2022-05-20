@@ -1,0 +1,33 @@
+2022-05-19 20:12:25,415 Getting artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project koz/exercise_1 does not contain artifact: "zen_of_pytho:v1"
+Traceback (most recent call last):
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/public.py", line 557, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/public.py", line 2759, in __init__
+    self._load()
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/public.py", line 3243, in _load
+    raise ValueError(
+ValueError: Project koz/exercise_1 does not contain artifact: "zen_of_pytho:v1"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py", line 44, in <module>
+    go(args)
+  File "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py", line 22, in go
+    artifact = run.use_artifact(args.artifact_name)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2021, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/public.py", line 557, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/public.py", line 2759, in __init__
+    self._load()
+  File "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/apis/public.py", line 3243, in _load
+    raise ValueError(
+wandb.errors.CommError: Project koz/exercise_1 does not contain artifact: "zen_of_pytho:v1"

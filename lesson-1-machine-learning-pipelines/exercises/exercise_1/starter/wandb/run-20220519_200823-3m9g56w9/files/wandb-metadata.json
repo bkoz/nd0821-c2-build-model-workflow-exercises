@@ -1,0 +1,24 @@
+{
+    "os": "macOS-12.3.1-arm64-arm-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-05-20T01:08:24.486419",
+    "startedAt": "2022-05-20T01:08:23.407664",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--artifact_name=zen_of_python:v1"
+    ],
+    "state": "running",
+    "program": "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py",
+    "git": {
+        "remote": "git@github.com:bkoz/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "80a26310dd5ae8e21c7d108c686fd6316a4b2320"
+    },
+    "email": "bkozdemba@gmail.com",
+    "root": "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises",
+    "host": "minuet.lan",
+    "username": "koz",
+    "executable": "/Users/koz/.local/miniforge3/envs/nyc_airbnb_dev/bin/python3"
+}

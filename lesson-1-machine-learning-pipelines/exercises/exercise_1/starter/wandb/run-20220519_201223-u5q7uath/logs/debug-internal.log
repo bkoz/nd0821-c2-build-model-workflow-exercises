@@ -1,0 +1,147 @@
+2022-05-19 20:12:23,749 INFO    MainThread:38591 [internal.py:wandb_internal():88] W&B internal server running at pid: 38591, started at: 2022-05-19 20:12:23.749632
+2022-05-19 20:12:23,750 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: check_version
+2022-05-19 20:12:23,750 INFO    WriterThread:38591 [datastore.py:open_for_write():77] open: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/run-u5q7uath.wandb
+2022-05-19 20:12:23,751 DEBUG   SenderThread:38591 [sender.py:send():179] send: header
+2022-05-19 20:12:23,751 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: check_version
+2022-05-19 20:12:24,130 DEBUG   SenderThread:38591 [sender.py:send():179] send: run
+2022-05-19 20:12:24,515 INFO    SenderThread:38591 [dir_watcher.py:__init__():168] watching files in: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files
+2022-05-19 20:12:24,515 INFO    SenderThread:38591 [sender.py:_start_run_threads():704] run started: u5q7uath with start time 1653009143
+2022-05-19 20:12:24,515 DEBUG   SenderThread:38591 [sender.py:send():179] send: summary
+2022-05-19 20:12:24,516 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: run_start
+2022-05-19 20:12:24,516 INFO    SenderThread:38591 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-05-19 20:12:24,517 DEBUG   HandlerThread:38591 [meta.py:__init__():39] meta init
+2022-05-19 20:12:24,522 DEBUG   HandlerThread:38591 [meta.py:__init__():53] meta init done
+2022-05-19 20:12:24,522 DEBUG   HandlerThread:38591 [meta.py:probe():210] probe
+2022-05-19 20:12:24,525 DEBUG   HandlerThread:38591 [meta.py:_setup_git():200] setup git
+2022-05-19 20:12:24,547 DEBUG   HandlerThread:38591 [meta.py:_setup_git():207] setup git done
+2022-05-19 20:12:24,548 DEBUG   HandlerThread:38591 [meta.py:_save_pip():57] save pip
+2022-05-19 20:12:24,548 DEBUG   HandlerThread:38591 [meta.py:_save_pip():71] save pip done
+2022-05-19 20:12:24,548 DEBUG   HandlerThread:38591 [meta.py:_save_conda():78] save conda
+2022-05-19 20:12:25,409 DEBUG   HandlerThread:38591 [meta.py:_save_conda():86] save conda done
+2022-05-19 20:12:25,409 DEBUG   HandlerThread:38591 [meta.py:probe():252] probe done
+2022-05-19 20:12:25,411 DEBUG   SenderThread:38591 [sender.py:send():179] send: telemetry
+2022-05-19 20:12:25,414 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: stop_status
+2022-05-19 20:12:25,522 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/requirements.txt
+2022-05-19 20:12:25,522 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/output.log
+2022-05-19 20:12:25,522 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/wandb-metadata.json
+2022-05-19 20:12:25,522 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/wandb-summary.json
+2022-05-19 20:12:25,522 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/conda-environment.yaml
+2022-05-19 20:12:25,822 DEBUG   SenderThread:38591 [sender.py:send():179] send: files
+2022-05-19 20:12:25,822 INFO    SenderThread:38591 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2022-05-19 20:12:25,823 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: stop_status
+2022-05-19 20:12:26,527 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/config.yaml
+2022-05-19 20:12:26,738 INFO    Thread-11 :38591 [upload_job.py:push():133] Uploaded file /var/folders/fl/7f9z_vd94h56jhb1wxtzkkvh0000gn/T/tmpelppwipawandb/592cjl1b-wandb-metadata.json
+2022-05-19 20:12:27,533 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/output.log
+2022-05-19 20:12:27,953 DEBUG   SenderThread:38591 [sender.py:send():179] send: telemetry
+2022-05-19 20:12:27,954 DEBUG   SenderThread:38591 [sender.py:send():179] send: exit
+2022-05-19 20:12:27,955 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:27,955 INFO    SenderThread:38591 [sender.py:send_exit():287] handling exit code: 1
+2022-05-19 20:12:27,956 INFO    SenderThread:38591 [sender.py:send_exit():295] send defer
+2022-05-19 20:12:27,956 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:27,957 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:27,957 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 0
+2022-05-19 20:12:27,957 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:27,957 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 0
+2022-05-19 20:12:27,957 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 1
+2022-05-19 20:12:27,958 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:27,958 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 1
+2022-05-19 20:12:28,428 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:28,428 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:28,428 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 1
+2022-05-19 20:12:28,428 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 2
+2022-05-19 20:12:28,430 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:28,430 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 2
+2022-05-19 20:12:28,538 INFO    Thread-8  :38591 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/output.log
+2022-05-19 20:12:28,876 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:28,876 DEBUG   SenderThread:38591 [sender.py:send():179] send: stats
+2022-05-19 20:12:28,877 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:28,878 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 2
+2022-05-19 20:12:28,878 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 3
+2022-05-19 20:12:28,878 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:28,878 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 3
+2022-05-19 20:12:28,879 DEBUG   SenderThread:38591 [sender.py:send():179] send: summary
+2022-05-19 20:12:28,879 INFO    SenderThread:38591 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-05-19 20:12:28,880 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:28,880 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 3
+2022-05-19 20:12:28,880 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 4
+2022-05-19 20:12:28,880 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:28,880 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 4
+2022-05-19 20:12:28,880 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:28,880 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 4
+2022-05-19 20:12:28,880 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 5
+2022-05-19 20:12:28,881 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:28,881 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 5
+2022-05-19 20:12:28,881 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:28,881 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 5
+2022-05-19 20:12:28,881 INFO    SenderThread:38591 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-05-19 20:12:28,983 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:29,545 INFO    SenderThread:38591 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/wandb-summary.json
+2022-05-19 20:12:29,546 INFO    SenderThread:38591 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/config.yaml
+2022-05-19 20:12:29,546 INFO    SenderThread:38591 [dir_watcher.py:finish():312] scan: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files
+2022-05-19 20:12:29,546 INFO    SenderThread:38591 [dir_watcher.py:finish():318] scan save: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/requirements.txt requirements.txt
+2022-05-19 20:12:29,547 INFO    SenderThread:38591 [dir_watcher.py:finish():318] scan save: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/output.log output.log
+2022-05-19 20:12:29,548 INFO    SenderThread:38591 [dir_watcher.py:finish():318] scan save: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/config.yaml config.yaml
+2022-05-19 20:12:29,557 INFO    SenderThread:38591 [dir_watcher.py:finish():318] scan save: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/wandb-summary.json wandb-summary.json
+2022-05-19 20:12:29,559 INFO    SenderThread:38591 [dir_watcher.py:finish():318] scan save: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/conda-environment.yaml conda-environment.yaml
+2022-05-19 20:12:29,561 INFO    SenderThread:38591 [dir_watcher.py:finish():318] scan save: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/wandb-metadata.json wandb-metadata.json
+2022-05-19 20:12:29,564 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 6
+2022-05-19 20:12:29,564 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:29,567 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:29,568 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 6
+2022-05-19 20:12:29,568 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:29,568 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 6
+2022-05-19 20:12:29,568 INFO    SenderThread:38591 [file_pusher.py:finish():176] shutting down file pusher
+2022-05-19 20:12:29,568 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 7
+2022-05-19 20:12:29,569 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:29,569 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 7
+2022-05-19 20:12:29,570 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:29,570 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 7
+2022-05-19 20:12:29,666 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:29,768 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 8
+2022-05-19 20:12:29,769 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:29,769 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:29,770 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 8
+2022-05-19 20:12:29,770 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:29,770 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 8
+2022-05-19 20:12:29,770 INFO    SenderThread:38591 [sender.py:send_request_defer():342] send defer: 9
+2022-05-19 20:12:29,771 DEBUG   SenderThread:38591 [sender.py:send():179] send: final
+2022-05-19 20:12:29,771 DEBUG   SenderThread:38591 [sender.py:send():179] send: footer
+2022-05-19 20:12:29,771 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: defer
+2022-05-19 20:12:29,771 INFO    HandlerThread:38591 [handler.py:handle_request_defer():141] handle defer: 9
+2022-05-19 20:12:29,772 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: defer
+2022-05-19 20:12:29,772 INFO    SenderThread:38591 [sender.py:send_request_defer():304] handle sender defer: 9
+2022-05-19 20:12:29,872 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:29,873 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:29,978 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:29,978 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,088 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,088 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,194 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,195 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,298 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,298 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,406 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,407 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,494 INFO    Thread-13 :38591 [upload_job.py:push():133] Uploaded file /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/output.log
+2022-05-19 20:12:30,496 INFO    Thread-12 :38591 [upload_job.py:push():133] Uploaded file /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/requirements.txt
+2022-05-19 20:12:30,498 INFO    Thread-16 :38591 [upload_job.py:push():133] Uploaded file /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/conda-environment.yaml
+2022-05-19 20:12:30,505 INFO    Thread-15 :38591 [upload_job.py:push():133] Uploaded file /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/wandb-summary.json
+2022-05-19 20:12:30,514 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,514 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,523 INFO    Thread-14 :38591 [upload_job.py:push():133] Uploaded file /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/files/config.yaml
+2022-05-19 20:12:30,622 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,622 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,727 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,728 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,836 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: poll_exit
+2022-05-19 20:12:30,836 DEBUG   SenderThread:38591 [sender.py:send_request():193] send_request: poll_exit
+2022-05-19 20:12:30,837 INFO    SenderThread:38591 [file_pusher.py:join():181] waiting for file pusher
+2022-05-19 20:12:30,838 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: get_summary
+2022-05-19 20:12:30,839 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: sampled_history
+2022-05-19 20:12:30,840 DEBUG   HandlerThread:38591 [handler.py:handle_request():124] handle_request: shutdown
+2022-05-19 20:12:30,840 INFO    HandlerThread:38591 [handler.py:finish():638] shutting down handler
+2022-05-19 20:12:31,781 INFO    WriterThread:38591 [datastore.py:close():258] close: /Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20220519_201223-u5q7uath/run-u5q7uath.wandb
+2022-05-19 20:12:31,840 INFO    SenderThread:38591 [sender.py:finish():933] shutting down sender
+2022-05-19 20:12:31,840 INFO    SenderThread:38591 [file_pusher.py:finish():176] shutting down file pusher
+2022-05-19 20:12:31,840 INFO    SenderThread:38591 [file_pusher.py:join():181] waiting for file pusher
+2022-05-19 20:12:31,842 INFO    MainThread:38591 [internal.py:handle_exit():78] Internal process exited
