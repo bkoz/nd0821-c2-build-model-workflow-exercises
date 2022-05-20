@@ -16,7 +16,6 @@ This directory contains: `demo`, `exercises`, with the `exercises` directory org
 [Download and install miniforge](https://github.com/conda-forge/miniforge)
 
 Create a conda environment.
-```
 ```bash
 conda create --name=mlops
 ```
