@@ -1,0 +1,18 @@
+
+2022-05-22 12:23:06,643 Downloading artifact
+2022-05-22 12:23:08,238 Performing t-SNE
+2022-05-22 12:23:08,779 Uploading image to W&B
+2022-05-22 12:23:08,830 Creating artifact
+2022-05-22 12:23:08,833 Logging artifact
+Traceback (most recent call last):
+  File "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py", line 88, in <module>
+    go(args)
+  File "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py", line 55, in go
+    run.log_artifact(artifact)
+  File "/Users/koz/.local/miniforge3/envs/mlflow-9fa1d9c3a04b24b4294807908e0ab21bbbd2c1cb/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2080, in log_artifact
+    return self._log_artifact(artifact_or_path, name, type, aliases)
+  File "/Users/koz/.local/miniforge3/envs/mlflow-9fa1d9c3a04b24b4294807908e0ab21bbbd2c1cb/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2201, in _log_artifact
+    self._assert_can_log_artifact(artifact)
+  File "/Users/koz/.local/miniforge3/envs/mlflow-9fa1d9c3a04b24b4294807908e0ab21bbbd2c1cb/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2243, in _assert_can_log_artifact
+    raise ValueError(
+ValueError: Expected artifact type raw_data, got processed_data

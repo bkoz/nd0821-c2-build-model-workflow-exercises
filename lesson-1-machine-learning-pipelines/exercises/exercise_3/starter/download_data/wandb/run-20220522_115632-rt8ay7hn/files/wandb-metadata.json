@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.3.1-arm64-arm-64bit",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-05-22T16:56:33.726185",
+    "startedAt": "2022-05-22T16:56:32.351057",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Input data"
+    ],
+    "state": "running",
+    "program": "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "git": {
+        "remote": "git@github.com:bkoz/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "a605c3891c428942f2da68ea76370dca6847631c"
+    },
+    "email": "bkozdemba@gmail.com",
+    "root": "/Users/koz/src/github/nd0821-c2-build-model-workflow-exercises",
+    "host": "minuet.lan",
+    "username": "koz",
+    "executable": "/Users/koz/.local/miniforge3/envs/mlflow-bfa7541164ae33e611db53efaefc358591ad764e/bin/python"
+}
