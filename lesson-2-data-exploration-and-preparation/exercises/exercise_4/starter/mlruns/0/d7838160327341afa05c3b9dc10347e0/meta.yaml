@@ -1,0 +1,15 @@
+artifact_uri: file:///private/var/tmp/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/d7838160327341afa05c3b9dc10347e0/artifacts
+end_time: 1653424938490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d7838160327341afa05c3b9dc10347e0
+run_uuid: d7838160327341afa05c3b9dc10347e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1653424847722
+status: 3
+tags: []
+user_id: bkozdemb
