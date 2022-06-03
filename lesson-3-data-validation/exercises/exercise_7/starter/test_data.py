@@ -96,4 +96,7 @@ def test_column_ranges(data):
         # YOUR CODE HERE: check that the values in the column col_name are within the expected range
         # HINT: look at the .between method of pandas, and then use .all() like in the previous
         # test
-        assert data[col_name].between(ranges[col_name][0], ranges[col_name][1]).all()
+        #
+        # .dropna() will drop missing values.
+        #
+        assert data[col_name].dropna().between(minimum, maximum).all()
