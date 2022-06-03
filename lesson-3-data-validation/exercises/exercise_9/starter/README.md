@@ -2,6 +2,8 @@
 
 Using pytest fixtures for non-deterministic testing.
 
+MacOS x86_64 (macOS M1 works) fails with:
+
 The `mlflow` approach fails with:
 ```
 mlflow run -P reference_artifact=exercise_6/data_train.csv:latest -P sample_artifact=exercise_6/data_test.csv:latest -P ks_alpha=0.5 .
