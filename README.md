@@ -15,15 +15,27 @@ This directory contains: `demo`, `exercises`, with the `exercises` directory org
 
 [Download and install miniforge](https://github.com/conda-forge/miniforge)
 
-Create a conda environment.
+Base Environment
+
+Linux
+- Python 3.8.13
+
+MacOS.
+- Python 3.9.10
+
+Create a conda environment. 
+
 ```bash
-conda create --name=mlops
+conda create --name=python-3.8.13 python=3.8.13 mlflow=1.26.1
 ```
 ```bash
-conda activate mlops
+conda activate python-3.8.13
 ```
+
+Jupyter (Need to confirm)
+
 ```bash
-conda install mlflow=1.14.1 ipython=7.21.0 notebook=6.2.0 jupyterlab=3.0.10 cookiecutter=1.7.2 hydra-core=1.0.6 matplotlib=3.3.4 pandas=1.2.3 git=2.30.2 pip=20.3.3 wandb=0.10.31
+conda install ipython=7.21.0 notebook=6.2.0 jupyterlab=3.0.10 cookiecutter=1.7.2 hydra-core=1.0.6 matplotlib=3.3.4 pandas=1.2.3 git=2.30.2 pip=20.3.3 wandb=0.10.31
 ```
 
 ### Get API key for Weights and Biases
